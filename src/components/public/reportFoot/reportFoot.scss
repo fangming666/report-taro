@@ -1,0 +1,19 @@
+.report-foot{
+  background: #FFFDEF;
+  padding: 36px 18px 30px 40px;
+  margin-top: 20px;
+  dl{
+    &:first-child{
+      margin-bottom: 38px;
+    }
+    dt{
+      font-size: 32px;
+      color: #927542;
+      font-weight: 600;
+    }
+    dd{
+      font-size: 28px;
+      color: #8C6F39;
+    }
+  }
+}

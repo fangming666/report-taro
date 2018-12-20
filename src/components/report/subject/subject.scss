@@ -1,0 +1,32 @@
+.subject-warp {
+  height: 104px;
+  line-height: 100px;
+  //padding-top: 24px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: 100%;
+  border-bottom: 2px solid #f4f4f4;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  &::-webkit-scrollbar {
+   display: none;
+  }
+}
+
+.report-item {
+  background: #f3f3f3;
+  border-radius: 200px;
+  font-size: 30px;
+  color: #9d9d9d;
+  height: 56px;
+  padding: 0 24px;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 28px;
+}
+.report-item-active{
+  background-image: linear-gradient(-131deg, #FFC530 3%, #FFBC25 100%);
+  box-shadow: inset 0 0 5px 0 #FFCC5A;
+  color: #FCFCFC;
+}

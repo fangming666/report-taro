@@ -1,0 +1,32 @@
+.exam-paper-table {
+  width: 100%;
+  margin-top: 10px;
+  tr, th, td {
+    border: none;
+    text-align: center;
+    height: 74px;
+    line-height: 75px;
+  }
+  thead {
+    tr {
+      th {
+        width: calc(100% / 3);
+        background: #FAFAFA;
+        font-size: 30px;
+        color: #3A3A3A;
+      }
+    }
+  }
+  tbody {
+    tr {
+      background-color: white;
+      td {
+        font-size: 30px;
+        color: #3A3A3A;
+      }
+      &:nth-child(2n) {
+        background: #FAFAFA;
+      }
+    }
+  }
+}

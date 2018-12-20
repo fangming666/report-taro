@@ -1,0 +1,31 @@
+.percent-rank-warp {
+  background: #FAFAFA;
+  padding: 30px 0;
+}
+
+.percent-rank {
+  width: 686px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.percent-rank-item {
+  flex: 1;
+  margin-right: 10px;
+  background: #FECC31;
+  box-shadow: inset 0 0 3px 0 #F6C223;
+  height: 100px;
+  padding-top: 18px;
+  &:last-child {
+    margin-right: 0;
+  }
+  p {
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-left: 13px;
+    margin-bottom: 4px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
